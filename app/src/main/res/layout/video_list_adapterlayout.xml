@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/video_news_adapter_image"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+          <!--<VideoView
+              android:id="@+id/video_news_adapter_video"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />-->
+      <!--  <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <SurfaceView
+                android:id="@+id/video_news_adapter_play_surface"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>-->
+        <TextView
+            android:id="@+id/video_news_adapter_video_time"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="100s"
+            android:textColor="@color/top2"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+ >
+        <TextView
+            android:id="@+id/video_news_adapter_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="@dimen/content"
+            android:text="title"
+            android:textColor="@color/font"
+            android:gravity="center"
+            android:singleLine="true"/>
+         <TextView
+             android:id="@+id/video_news_adapter_content"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:text="content"
+             android:gravity="center"
+             android:textSize="@dimen/video_content"/>
+          <TextView
+              android:id="@+id/video_news_adapter_time"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="time"
+              android:gravity="center"
+              android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

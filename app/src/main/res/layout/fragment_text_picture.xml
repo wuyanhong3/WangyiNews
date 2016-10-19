@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/font"
+    tools:context="wangyinews.com.wangyinews.WangYiNews.TextNews.TextPictureFragment">
+    <TextView
+        android:id="@+id/text_news_picture_page"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="1/4"
+        android:textColor="@color/Title"
+        android:textSize="@dimen/title"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/text_news_picture_image"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+  <!--  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp">
+        <TextView
+            android:id="@+id/text_news_picture_des"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="content"
+            android:textColor="@color/Title"
+            android:textSize="@dimen/content"
+            android:gravity="center_horizontal"/>
+    </ScrollView>-->
+
+</RelativeLayout>

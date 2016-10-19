@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wangyinews.com.wangyinews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newsicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".MyVolley.VolleyApp"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".WangYiNews.TextNews.TextNewsMainActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".WangYiNews.TestActivity" />
+        <activity android:name=".WangYiNews.PictureNews.PictureNewsActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".MyViewPager.MainActivity" />
+        <activity android:name=".WangYiNews.TextNews.TextPictureActivity" />
+        <activity android:name=".WangYiNews.TextNews.TextNewsContentActivity" />
+        <activity android:name=".WangYiNews.PictureNews.PictureNewsContentActivity" />
+        <activity android:name=".WangYiNews.VideoNews.VideoActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".WangYiNews.VideoNews.PlayVideoActivity" />
+        <activity android:name=".WangYiNews.WellComeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

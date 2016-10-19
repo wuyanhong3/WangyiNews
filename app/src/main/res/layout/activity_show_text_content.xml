@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WangYiNews.TextNews.TextPictureActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/top2">
+        <ImageButton
+            android:id="@+id/text_news_picture_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@mipmap/back"/>
+        <TextView
+            android:id="@+id/text_news_picture_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="title"
+            android:textColor="@color/Title"
+            android:textSize="@dimen/content"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/text_news_picture_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

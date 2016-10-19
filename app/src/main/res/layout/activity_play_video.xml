@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/font"
+    tools:context="wangyinews.com.wangyinews.WangYiNews.VideoNews.PlayVideoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+      >
+        <ImageButton
+            android:id="@+id/video_news_play_back"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@null"
+             android:src="@mipmap/back"/>
+        <TextView
+            android:id="@+id/video_news_play_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="视频"
+            android:paddingLeft="10dp"
+            android:textColor="@color/Title"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/video_content"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+      <SurfaceView
+          android:id="@+id/video_news_play_surface"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         />
+    </FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical" >
+    <TextView
+        android:id="@+id/video_news_play_current_time"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:textColor="@color/top3"
+        android:text="00:00"/>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="13dp"
+      >
+
+
+        <SeekBar
+            android:id="@+id/video_news_play_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progressDrawable="@drawable/myseekbar"
+            android:thumb="@drawable/sk"
+            />
+        <!--  <ProgressBar
+          android:id="@+id/video_news_play_buffer"
+          style="?android:attr/progressBarStyleHorizontal"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:progressDrawable="@drawable/progressshap"
+          android:indeterminate="false"
+          />-->
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/video_news_play_total_time"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="@color/top3"/>
+          </LinearLayout>
+
+</LinearLayout>

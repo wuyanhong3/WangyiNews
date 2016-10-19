@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="textcolor" format="color"/>
+        <attr name="textsize" format="dimension"/>
+        <attr name="content" format="string"/>
+        <attr name="showTexts" format="boolean"/>
+        <attr name="tabBackground" format="reference"/>
+        <attr name="labelPosition" format="enum">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+    </attr>
+    </declare-styleable>
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+</resources>
