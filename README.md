@@ -7,4 +7,4 @@
        app下载地址：http://pan.baidu.com/s/1bpoSYRl
  
         以下gif图为app运行界面；
-     ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/NEWS.gif);
+    ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/NEWS.gif);
