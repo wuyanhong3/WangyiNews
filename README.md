@@ -14,5 +14,14 @@
                Fragment +viewPager切换新闻类型；<br>
                自定义viewPager指示器（可添加删除标题及内容）；<br>
                SurfaceView+MediaPlayer播放视频；
-####以下gif图为app运行界面；<br>
+####以下图片app截图；<br>
+侧滑菜单：<br>
+                ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/newsMenu%20.jpg);<br>
+图片新闻:<br>
+                ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/newsPictures.jpg);
+                ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/newsPicture.jpg);<br>
+视频新闻：<br>
+                ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/newsVideo%20.jpg);
+                ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/playVideo.jpg);<br>
+#####以下gif图片为app运行界面；<br>
  ![image](https://github.com/wuyanhong3/ProjectPhoto/blob/master/image/NEWS.gif);
